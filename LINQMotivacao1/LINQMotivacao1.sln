@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQMotivacao1", "LINQMotivacao1\LINQMotivacao1.csproj", "{98713408-774F-4C0B-ADF5-E5E9627E753E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98713408-774F-4C0B-ADF5-E5E9627E753E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98713408-774F-4C0B-ADF5-E5E9627E753E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98713408-774F-4C0B-ADF5-E5E9627E753E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98713408-774F-4C0B-ADF5-E5E9627E753E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {924AD8D3-6884-4A63-B586-2881EF98EE75}
+	EndGlobalSection
+EndGlobal
