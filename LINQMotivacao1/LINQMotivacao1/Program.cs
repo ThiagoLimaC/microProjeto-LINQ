@@ -20,4 +20,15 @@ var resultado4 = numeros.Where(n => n > 1)
 
 Console.WriteLine(string.Join(" ", resultado4));
 
+// trabalhar com objetos complexos
+var alunos = FonteDados.GetAlunos();
+
+var resultado5 = alunos.Where(a => a.Nome.StartsWith('A') 
+                                && a.Idade < 18);
+
+foreach (var aluno in resultado5)
+{
+    Console.WriteLine(aluno.Nome + " : " + aluno.Idade);
+}
+
 Console.ReadKey();
