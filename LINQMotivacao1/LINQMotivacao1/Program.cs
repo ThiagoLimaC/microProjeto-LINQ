@@ -18,7 +18,7 @@ var resultado4 = numeros.Where(n => n > 1)
                         .Where(n => n != 4)
                         .Where(n => n < 20);
 
-Console.WriteLine(string.Join(" ", resultado4));
+// Console.WriteLine(string.Join(" ", resultado4));
 
 // trabalhar com objetos complexos
 var alunos = FonteDados.GetAlunos();
