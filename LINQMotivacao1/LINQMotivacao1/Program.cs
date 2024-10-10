@@ -9,6 +9,8 @@ var numeros = FonteDados.GetNumeros();
 
 var resultado1 = numeros.Where(n => n < 10);
 
-Console.WriteLine(string.Join(" ", resultado1));
+var resultado2 = numeros.Where(n => n > 1 && n != 4 && n < 20);
+
+Console.WriteLine(string.Join(" ", resultado2));
 
 Console.ReadKey();
