@@ -16,5 +16,14 @@ namespace LINQMotivacao1
             };
             return numeros;
         }
+
+        public static List<int> GetListaNegra()
+        {
+            List<int> numeros = new List<int>()
+            {
+                16, 128, 512
+            };
+            return numeros;
+        }
     }
 }
